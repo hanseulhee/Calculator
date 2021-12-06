@@ -10,3 +10,8 @@
 ```js
 npm i react-textfit
 ```
+
+
+```js
+npm i sass
+```
