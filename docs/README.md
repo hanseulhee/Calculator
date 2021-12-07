@@ -37,46 +37,46 @@ Button의 각 구성 요소에는 value와 onClick props가 있다.
 입력 값(num), 기호(sign), 계산된 값(res) 세가지 상태로 나누었다.
 
 
-**App.js**
-
-
-
-
 **toLocaleString**
 
-
-
-**removeSpaces**
-
+num을 문자열로 형변환 후 천 단위 표시에 대한 구분 기호를 만든다. 정규 표현식을 이용하였다.
 
 
 **numClickHandler**
 
 숫자 0 ~ 9 중 하나를 누른 경우 값을 Button에 가져와 현재 num값에 추가한다.
+숫자는 최대 16개로 입력할 수 있고 0으로 시작하는 지 확인한다.
 
-숫자는 최대 16개로 입력할 수 있고 0으로 시작하는 지를 확인한다.
 
 **commaClickHandler**
 
+소수점 기능으로 num값에 소수점을 더한다.
 
 
 **signClickHandler**
 
++, -, *, % 등 기호를 누를 경우 실행된다.
 
 
 **equalsClickHandler**
 
+등호(=)를 눌렀을 때 결과를 계산한다. 결과 값은 num과 res, 선택된 기호 값을 기반으로 한다.
+
+0으로 나눌 수 없으므로 0으로 나누기를 시도할 시 "Can't divide with 0"를 나타낸다.
 
 
 **invertClickHandler**
 
-
+먼저 입력된 num 또는 res가 있는지 확인 후 -1을 곱하여 반전시킨다.
 
 **percentClickHandler**
 
+백분율 계산 함수다. [Math.pow](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math/pow)을 이용해 계산한다. 
 
 
 **resetClickHandler**
+
+모든 값을 초기화 시킨다. 즉 계산기가 처음 렌더링되었을 때의 상태로 반환한다.
 
 
 
