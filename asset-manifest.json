@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/hanseulhee/Calculator/static/css/main.3e49cafe.chunk.css",
+    "main.js": "/hanseulhee/Calculator/static/js/main.b82810de.chunk.js",
+    "main.js.map": "/hanseulhee/Calculator/static/js/main.b82810de.chunk.js.map",
+    "runtime-main.js": "/hanseulhee/Calculator/static/js/runtime-main.607779f7.js",
+    "runtime-main.js.map": "/hanseulhee/Calculator/static/js/runtime-main.607779f7.js.map",
+    "static/js/2.9afab182.chunk.js": "/hanseulhee/Calculator/static/js/2.9afab182.chunk.js",
+    "static/js/2.9afab182.chunk.js.map": "/hanseulhee/Calculator/static/js/2.9afab182.chunk.js.map",
+    "index.html": "/hanseulhee/Calculator/index.html",
+    "static/css/main.3e49cafe.chunk.css.map": "/hanseulhee/Calculator/static/css/main.3e49cafe.chunk.css.map",
+    "static/js/2.9afab182.chunk.js.LICENSE.txt": "/hanseulhee/Calculator/static/js/2.9afab182.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.607779f7.js",
+    "static/js/2.9afab182.chunk.js",
+    "static/css/main.3e49cafe.chunk.css",
+    "static/js/main.b82810de.chunk.js"
+  ]
+}
