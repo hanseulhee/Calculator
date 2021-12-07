@@ -1,0 +1,29 @@
+button {
+  all: unset;
+  text-align: center;
+  font-size: 19px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 1px 2px rgb(236, 242, 247);
+  font-weight: 700;
+  transition: 0.2s ease-out;
+}
+
+button:active {
+  margin: 2px 2px 0px 0px;
+  box-shadow: none;
+}
+
+.equals {
+  width: 140px;
+  grid-column: 3 / 5;
+  background-color: rgb(245, 204, 22);
+}
+
+.equals:hover {
+  background-color: rgb(28, 153, 80);
+  transition: 0.1s ease-out;
+}

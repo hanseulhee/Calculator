@@ -8,7 +8,7 @@ import Wrapper from "./Components/Wrapper";
 import "./Styles/global.scss";
 
 const btnValues = [
-  ["C", "+-", "%", "/"],
+  ["AC", "+ / -", "%", "/"],
   [7, 8, 9, "X"],
   [4, 5, 6, "-"],
   [1, 2, 3, "+"],
@@ -137,9 +137,9 @@ const App = () => {
               className={btn === "=" ? "equals" : ""}
               value={btn}
               onClick={
-                btn === "C"
+                btn === "AC"
                   ? resetClickHandler
-                  : btn === "+-"
+                  : btn === "+ / -"
                   ? invertClickHandler
                   : btn === "%"
                   ? percentClickHandler
